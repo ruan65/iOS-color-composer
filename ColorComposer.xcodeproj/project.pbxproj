@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		002ECD3B1E21232B00C31097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002ECD3A1E21232B00C31097 /* AppDelegate.swift */; };
-		002ECD3D1E21232B00C31097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002ECD3C1E21232B00C31097 /* ViewController.swift */; };
+		002ECD3D1E21232B00C31097 /* ViewControllerColorsComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002ECD3C1E21232B00C31097 /* ViewControllerColorsComposer.swift */; };
 		002ECD401E21232B00C31097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002ECD3E1E21232B00C31097 /* Main.storyboard */; };
 		002ECD421E21232B00C31097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002ECD411E21232B00C31097 /* Assets.xcassets */; };
 		002ECD451E21232B00C31097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002ECD431E21232B00C31097 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		002ECD371E21232B00C31097 /* ColorComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002ECD3A1E21232B00C31097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		002ECD3C1E21232B00C31097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002ECD3C1E21232B00C31097 /* ViewControllerColorsComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerColorsComposer.swift; sourceTree = "<group>"; };
 		002ECD3F1E21232B00C31097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		002ECD411E21232B00C31097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002ECD441E21232B00C31097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				002ECD3A1E21232B00C31097 /* AppDelegate.swift */,
-				002ECD3C1E21232B00C31097 /* ViewController.swift */,
+				002ECD3C1E21232B00C31097 /* ViewControllerColorsComposer.swift */,
 				002ECD3E1E21232B00C31097 /* Main.storyboard */,
 				002ECD411E21232B00C31097 /* Assets.xcassets */,
 				002ECD431E21232B00C31097 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002ECD3D1E21232B00C31097 /* ViewController.swift in Sources */,
+				002ECD3D1E21232B00C31097 /* ViewControllerColorsComposer.swift in Sources */,
 				002ECD3B1E21232B00C31097 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +302,7 @@
 				002ECD4B1E21232B00C31097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
